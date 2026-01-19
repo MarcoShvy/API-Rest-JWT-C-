@@ -49,7 +49,7 @@ public class FileService : IFileService
         }
         catch (IOException)
         {
-            throw new IOException("Erro ao ler o arquivo");
+            throw new IOException("Erro ao ler o arquivo!");
         }
         catch (Exception)
         {
